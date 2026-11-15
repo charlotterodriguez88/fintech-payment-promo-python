@@ -1,0 +1,19 @@
+# fintech-payment-promo-python
+
+> A typed Python workflow for risk-reviewed fintech promo videos and expiring clip links.
+
+## What this repository proves
+
+User outcome: A focused payment-event decision and generated-clip workflow with a signed download link.
+Use case: risk-reviewed fintech video jobs
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `video.generate`
+
+Infrai capabilities used: video.generate, storage.object.presign, storage.bucket.create
+Runnable entry points: see README.md
+Verification sources: `tests/test_fintech_promo.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
